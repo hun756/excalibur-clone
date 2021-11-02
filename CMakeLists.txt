@@ -27,7 +27,7 @@ option(coverage "Use coverage flag" OFF)
 # Set the C++ standard you wish to use (will apply to all files).
 # If you do not use any features that limits the standard required,
 # you could omitt this line.
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 
 # Things to always include as flags. Change as needed.
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall")  
