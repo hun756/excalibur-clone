@@ -34,6 +34,9 @@
 # Build Directoru
 build/
 
-#Editor
+# Editor
 .vscode/
 .idea/
+
+# Other
+.cache/
